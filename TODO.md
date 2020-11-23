@@ -1,5 +1,12 @@
 # Terminal apps using the mouse
 
+## Screen Resize VT command Fix
+
+- Screen resize in pixels (WxH):
+  - size transformed into grid cells, then a grid-cell resize is performed.
+- Screen resize in grid cells (WxH):
+  - limits the logical Screen.size()
+
 ### pre-0.1.0 release
 
 - [ ] BUG: screen resize events broken. it should still resize something without breaking the GUI.
